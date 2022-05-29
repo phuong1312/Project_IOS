@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73218185283D189900E99316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73218184283D189900E99316 /* ViewController.swift */; };
+		73218185283D189900E99316 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73218184283D189900E99316 /* LoginController.swift */; };
 		73218188283D189900E99316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73218186283D189900E99316 /* Main.storyboard */; };
 		7321818D283D189B00E99316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7321818B283D189B00E99316 /* LaunchScreen.storyboard */; };
 		73218198283D189C00E99316 /* App_TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73218197283D189C00E99316 /* App_TicketTests.swift */; };
 		732181A3283D189C00E99316 /* App_TicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732181A2283D189C00E99316 /* App_TicketUITests.swift */; };
 		7351F353283D1C9300ABB086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351F352283D1C9300ABB086 /* AppDelegate.swift */; };
 		7351F35A283D1CB500ABB086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7351F357283D1CB500ABB086 /* SceneDelegate.swift */; };
+		7393D46828434B9D00FC3AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7351F358283D1CB500ABB086 /* Assets.xcassets */; };
+		73E7947328426D0600DEF55C /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E7947228426D0600DEF55C /* RegisterController.swift */; };
+		73E794782842BEE700DEF55C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E794772842BEE700DEF55C /* HomeController.swift */; };
+		73E794882843376000DEF55C /* MyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E794872843376000DEF55C /* MyCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		7321817D283D189900E99316 /* App_Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		73218184283D189900E99316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		73218184283D189900E99316 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		73218187283D189900E99316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7321818C283D189B00E99316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73218193283D189B00E99316 /* App_TicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = App_TicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,9 @@
 		7351F357283D1CB500ABB086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7351F358283D1CB500ABB086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7351F359283D1CB500ABB086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E7947228426D0600DEF55C /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		73E794772842BEE700DEF55C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		73E794872843376000DEF55C /* MyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +105,7 @@
 		7321817F283D189900E99316 /* App_Ticket */ = {
 			isa = PBXGroup;
 			children = (
-				7351F364283D1D4900ABB086 /* System */,
-				73218184283D189900E99316 /* ViewController.swift */,
+				7393D4432843493C00FC3AC4 /* ViewController */,
 				73218186283D189900E99316 /* Main.storyboard */,
 			);
 			path = App_Ticket;
@@ -133,6 +139,19 @@
 				7321818B283D189B00E99316 /* LaunchScreen.storyboard */,
 			);
 			name = System;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7393D4432843493C00FC3AC4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73218184283D189900E99316 /* LoginController.swift */,
+				73E7947228426D0600DEF55C /* RegisterController.swift */,
+				73E794772842BEE700DEF55C /* HomeController.swift */,
+				73E794872843376000DEF55C /* MyCollectionView.swift */,
+				7351F364283D1D4900ABB086 /* System */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7321818D283D189B00E99316 /* LaunchScreen.storyboard in Resources */,
+				7393D46828434B9D00FC3AC4 /* Assets.xcassets in Resources */,
 				73218188283D189900E99316 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E7947328426D0600DEF55C /* RegisterController.swift in Sources */,
 				7351F353283D1C9300ABB086 /* AppDelegate.swift in Sources */,
-				73218185283D189900E99316 /* ViewController.swift in Sources */,
+				73E794882843376000DEF55C /* MyCollectionView.swift in Sources */,
+				73E794782842BEE700DEF55C /* HomeController.swift in Sources */,
+				73218185283D189900E99316 /* LoginController.swift in Sources */,
 				7351F35A283D1CB500ABB086 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
