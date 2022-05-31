@@ -1,21 +1,19 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  App_Ticket
 //
-//  Created by moon on 5/24/22.
+//  Created by moon on 5/29/22.
 //
 
 import UIKit
 
-class LoginController: UIViewController {
+class AccountController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Tài Khoản"
         // Do any additional setup after loading the view.
-        
     }
-    
     
 
 }
-
