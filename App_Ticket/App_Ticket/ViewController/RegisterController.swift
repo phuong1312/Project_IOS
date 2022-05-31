@@ -9,21 +9,25 @@ import UIKit
 
 class RegisterController: UIViewController {
 
+    @IBOutlet weak var user: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var rePassword: UITextField!
+    @IBOutlet weak var phone: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var btnRegister: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        setUpElement()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setUpElement() {
+        Utilities.styleTextField(user)
+        Utilities.styleTextField(password)
+        Utilities.styleTextField(rePassword)
+        Utilities.styleTextField(phone)
+        Utilities.styleTextField(email)
+        Utilities.styleHollowButton(btnRegister)
     }
-    */
-
 }

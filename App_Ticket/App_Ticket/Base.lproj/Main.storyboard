@@ -64,6 +64,12 @@
                     <navigationItem key="navigationItem" title="Đăng Nhập" id="ikm-k1-zac">
                         <barButtonItem key="backBarButtonItem" title="Trở Về" id="AhO-Hr-4S8"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="btnLogin" destination="PoT-XP-RMZ" id="GiN-fj-Vog"/>
+                        <outlet property="btnRegister" destination="UN5-8F-PE4" id="yew-rU-JJt"/>
+                        <outlet property="password" destination="Qtj-qM-hjb" id="72h-0P-MZ8"/>
+                        <outlet property="userName" destination="P4F-Lf-4Fq" id="EiY-tp-bTZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,6 +160,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Đăng Ký" id="J5A-Da-CPa"/>
+                    <connections>
+                        <outlet property="btnRegister" destination="lnk-NH-YM3" id="NsR-MO-ysz"/>
+                        <outlet property="email" destination="l9e-bv-GXQ" id="hL2-Eh-Z2c"/>
+                        <outlet property="password" destination="AWG-I9-6su" id="wOv-gn-oE0"/>
+                        <outlet property="phone" destination="94V-vv-4qX" id="vrb-uF-0GT"/>
+                        <outlet property="rePassword" destination="PGh-SU-VKN" id="C6p-8d-wNr"/>
+                        <outlet property="user" destination="6c0-BI-2M8" id="BYt-Hh-tFv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJ0-np-MCj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -662,7 +676,7 @@ Ngôn ngữ: Tiếng Nhật - Phụ đề Tiếng Việt; Lồng tiếng</string
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q0D-rz-AfK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4113" y="70"/>
+            <point key="canvasLocation" x="4111.594202898551" y="69.642857142857139"/>
         </scene>
         <!--Movie Schedule-->
         <scene sceneID="yEj-h6-t5O">

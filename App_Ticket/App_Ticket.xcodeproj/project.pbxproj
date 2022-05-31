@@ -21,6 +21,7 @@
 		7355D02028448A4B00E5B4D8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355D01B28448A4B00E5B4D8 /* HomeController.swift */; };
 		7355D02128448A4B00E5B4D8 /* ListTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355D01C28448A4B00E5B4D8 /* ListTicketController.swift */; };
 		7355D02D2845502C00E5B4D8 /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355D02C2845502C00E5B4D8 /* MovieDetailController.swift */; };
+		7355D0392845A39400E5B4D8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355D0382845A39400E5B4D8 /* Utilities.swift */; };
 		7393D46828434B9D00FC3AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7351F358283D1CB500ABB086 /* Assets.xcassets */; };
 		73E794882843376000DEF55C /* MyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E794872843376000DEF55C /* MyCollectionView.swift */; };
 		75E40522DA66A3CBABC7C5E2 /* Pods_App_TicketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA00693CBE9F7775C64E9B8 /* Pods_App_TicketTests.framework */; };
@@ -69,6 +70,7 @@
 		7355D01B28448A4B00E5B4D8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		7355D01C28448A4B00E5B4D8 /* ListTicketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTicketController.swift; sourceTree = "<group>"; };
 		7355D02C2845502C00E5B4D8 /* MovieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		7355D0382845A39400E5B4D8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		73E794872843376000DEF55C /* MyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionView.swift; sourceTree = "<group>"; };
 		CFD61134BA5568A26194AEF1 /* Pods_App_Ticket_App_TicketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Ticket_App_TicketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDB8FB221DAE27FD5222891 /* Pods-App_Ticket-App_TicketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_Ticket-App_TicketUITests.debug.xcconfig"; path = "Target Support Files/Pods-App_Ticket-App_TicketUITests/Pods-App_Ticket-App_TicketUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		7355CFFD2844880700E5B4D8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7355D0382845A39400E5B4D8 /* Utilities.swift */,
 				73E794872843376000DEF55C /* MyCollectionView.swift */,
 				7355CFFE2844885600E5B4D8 /* SideMenu.swift */,
 			);
@@ -453,6 +456,7 @@
 			files = (
 				7351F353283D1C9300ABB086 /* AppDelegate.swift in Sources */,
 				7355D02D2845502C00E5B4D8 /* MovieDetailController.swift in Sources */,
+				7355D0392845A39400E5B4D8 /* Utilities.swift in Sources */,
 				7355D01E28448A4B00E5B4D8 /* LoginController.swift in Sources */,
 				7355D01D28448A4B00E5B4D8 /* AccountController.swift in Sources */,
 				7355D01F28448A4B00E5B4D8 /* RegisterController.swift in Sources */,
